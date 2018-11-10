@@ -4,6 +4,7 @@
   "description": "Api Rest con nodeJS y MongoDB",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +27,10 @@
   },
   "homepage": "https://github.com/Codeandomx/api-rest-nodejs-mongodb#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
   }
 }
